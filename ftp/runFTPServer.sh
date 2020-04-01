@@ -1,6 +1,6 @@
 #!/bin/bash
 
-HOST=localhost
+HOST=127.0.0.1
 EXT_PORT=2021
 EXT_DATA_DIR=./ftp-data
 # TODO: OVERWRITE user credentials
