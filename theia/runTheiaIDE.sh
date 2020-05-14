@@ -16,7 +16,8 @@ fi;
 
 # run podman in rootless mode in background 
 # use -it instead -d to run theia container in foreground
-podman run --rm -d -v $EXT_DATA_DIR:/home/project:Z \
+# podman run --rm -d -v $EXT_DATA_DIR:/home/project:Z \
+podman run -d \
 -p $EXT_PORT:3000 \
 --name theia-ide theiaide/theia-full
 
