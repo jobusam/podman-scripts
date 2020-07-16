@@ -1,0 +1,15 @@
+{
+  "kernel_python_credentials" : {
+    "username" : "",
+    "password" : "",
+    "url": "http://[livy-hostname]:8998",
+    "auth": "None"
+  },
+  "session_configs": {
+    "driverMemory": "2048M",
+    "executorMemory": "2048M",
+    "conf": {
+      "spark.cores.max":3
+    }
+  }
+}
