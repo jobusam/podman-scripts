@@ -1,2 +1,3 @@
 *.rpm
 *.pdf
+*.ipynb_checkpoint*
