@@ -11,3 +11,4 @@ jupyter notebooks, mqtt instances, kali instances for security tests, ...
 - [Hive ODBC JupyterHub](jupyter/jupyter-odbc/start.sh) with own user and
 thirdparty software to access Apache Hive (within an Hadoop Cluster) via Hive Server 2 and Cloudera Hive ODBC driver. See also [README.md](jupyter/jupyter-odbc/README.md).
 - [Jupyter Notebook Server with Spark Magic](jupyter/jupyter-sparkmagic/start.sh) to access a Apache Spark Standalone Cluster via Apache Livy
+- [Keycloak Server](keycloak/start.sh) for identity and access management
